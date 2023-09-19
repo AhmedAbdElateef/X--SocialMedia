@@ -1,0 +1,1 @@
+enum PostsQuery { feeds, trending }

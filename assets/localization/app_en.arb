@@ -1,0 +1,142 @@
+{
+  "appTitle": "Social_X",
+  "onBoardingTitle": "{index, select, 0{Meet new people} 1{Contact your friends} 2{Find nearby friends} other{}}",
+  "@onBoardingTitle": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "onBoardingDescription": "{index, select, 0{Expand your social circle and meet new people for diverse perspectives, growth, and meaningful connections.} 1{Stay connected and reach out to your friends for meaningful interactions and cherished moments.} 2{Discover and connect with friends in your vicinity for local meetups and shared experiences.} other{}}",
+  "@onBoardingDescription": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "email": "Email",
+  "userName": "User Name",
+  "password": "Password",
+  "forgotPassword": "Forgot Password",
+  "login": "Login",
+  "orLogInBy": "Or Log In By",
+  "dontHaveAccount": "Don''t Have Account ?",
+  "alreadyHaveAccount": "Already Have Account ?",
+  "signUp": "SignUp",
+  "verify": "Verify",
+  "typeYourEmail": "Type Your Email",
+  "send": "Send",
+  "phoneNumber": "Phone Number",
+  "emailVerification": "Email verification",
+  "resetPasswordMessageAlert": "We will send you instruction on how to reset your password",
+  "cancel": "Cancel",
+  "emailError": "{errorMessage, select, empty{Email is empty} invalid{Email is invalid} other{}}",
+  "@emailError": {
+    "placeholders": {
+      "errorMessage": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordError": "{errorMessage, select, empty{Password is empty} invalid{Password is weak} other{}}",
+  "@passwordError": {
+    "placeholders": {
+      "errorMessage": {
+        "type": "String"
+      }
+    }
+  },
+  "toastError": "{error, select, network_error{No Internet Connection} user_not_found{Email Not Found} invalid_credential{Invalid Email Or Password} email_already_exists{Account Already Exists} wrong_verification_code{Wrong Code} invalid_input{Invalid Input} user_canceled_login{Login canceled} wrong_login_method{Wrong login method} unsupported_file{This file is not supported} file_upload_failed{File upload failed} other{}}",
+  "@toastError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "usernameError": "{errorMessage, select, empty{UserName is empty} invalid{UserName is invalid} other{}}",
+  "@usernameError": {
+    "placeholders": {
+      "errorMessage": {
+        "type": "String"
+      }
+    }
+  },
+  "phonenumberError": "{errorMessage, select, empty{Phone Number is empty} invalid{Phone Number is invalid} other{}}",
+  "@phonenumberError": {
+    "placeholders": {
+      "errorMessage": {
+        "type": "String"
+      }
+    }
+  },
+  "verificationCodeSent":"Verification code sent",
+  "appShare" : "Share App",
+  "appLanguage" : "App Language",
+  "appTheme" : "Theme Mode",
+  "privacyPolicy" : "Privacy Policy",
+  "logout" : "Logout",
+  "feeds" : "Feeds" ,
+  "trending" : "Trending",
+  "following" : "Following",
+  "postOptions": "{postOption, select, save{Save Post} unsave{Un Save} edit{Edit Post} delete{Delete Post} other{}}",
+  "@postOptions": {
+    "placeholders": {
+      "postOption": {
+        "type": "String"
+      }
+    }
+  },
+  "messages" : "Messages",
+  "addComment": "Add a comment",
+  "addImageOrVideo": "Add image or video",
+  "whatsInYourMind": "What's in your mind ? ...",
+  "post": "Post",
+  "notifications": "Notifications",
+  "settings": "Settings",
+  "commentLikes": "Comment likes",
+  "likes": "Likes",
+  "followers": "Followers",
+ 
+  "facebook": "FaceBook",
+  "instagram" : "Instagram",
+  "personalWebsite" : "Personal Website",
+  "saveChanges" : "Save Changes",
+  "bio": "bio",
+  "search" : "Search Friends",
+  "editProfile": "Edit Profile",
+  "appLang": "{langCode, select, ar{عربي} en{English} other{}}}",
+  "@appLang": {
+    "placeholders": {
+      "langCode": {
+        "type": "String"
+      }
+    }
+  },
+  "theme": "{index, select, 0{Dark Mode} 1{Light Mode} other{}}}",
+  "@theme": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "loginSlogan": "Your Friends Await You",
+  "signupSlogan": "Start Making Friends",
+  "savedPosts" : "Saved Posts",
+  "deletingPost":"Deleting Post ...",
+  "editPost": "Edit post",
+  "postSaved": "Post published successfully",
+  "emptyPost": "Post is empty!",
+  "update": "Update",
+  "uploading": "Uploading ...",
+  "addingComment": "Adding comment ...",
+  "userLikes": "Likes ...",
+  "profileUpdated": "Profile updated successfully",
+  "address": "Address",
+  "sharingPost": "Sharing post ...",
+  "follow" : "Follow",
+  "unFollow" : "Un Follow"
+}

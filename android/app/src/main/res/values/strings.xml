@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Social X</string>
+    <string name="facebook_app_id">605396951769281</string>
+    <string name="facebook_client_token">512878628597a6a5b0fdeef38f8927b0</string>
+</resources>

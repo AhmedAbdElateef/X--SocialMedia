@@ -1,0 +1,106 @@
+name: social_x
+description: Social app made with Flutter
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # input validation
+  mime: ^1.0.4
+  formz: ^0.6.0
+
+  # ui
+  shimmer: ^3.0.0
+  timeago: ^3.5.0
+  flutter_svg: ^2.0.7
+  carousel_slider: ^4.2.1
+  convex_bottom_bar: ^3.2.0
+  flutter_html: ^3.0.0-beta.2
+  cached_network_image: ^3.2.3
+  material_floating_search_bar_2: ^0.5.0
+  custom_sliding_segmented_control: ^1.7.5
+
+  # state management
+  flutter_riverpod: ^2.3.7
+
+  # local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+
+  # firebase
+  firebase_auth: ^4.8.0
+  firebase_core: ^2.15.1
+  cloud_firestore: ^4.9.0
+  firebase_storage: ^11.2.5
+  firebase_ui_firestore: ^1.5.11
+
+  # social login
+  google_sign_in: ^6.1.4
+  flutter_facebook_auth: 4.4.1+1
+
+  # media
+  chewie: ^1.7.0
+  file_picker: ^5.5.0
+  video_player: ^2.7.1
+  image_cropper: ^5.0.0
+  flutter_sound: ^9.2.13
+  agora_rtc_engine: ^6.2.2
+
+  # native APIs
+  path: ^1.8.3
+  share_plus: ^7.1.0
+  fluttertoast: ^8.2.2
+  url_launcher: ^6.1.12
+  path_provider: ^2.0.15
+  flutter_osm_plugin: ^0.60.4
+
+dev_dependencies:
+  # code analysis
+  flutter_lints: ^2.0.0
+
+  # code generators
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.0
+  flutter_native_splash: ^2.3.1
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: CircularStd
+      fonts:
+        - asset: assets/fonts/CircularStd/Book.ttf
+          weight: 300
+        - asset: assets/fonts/CircularStd/Bold.ttf
+          weight: 800
+        - asset: assets/fonts/CircularStd/Black.ttf
+          weight: 900
+
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/ProximaNova/Bold.ttf
+          weight: 800
+
+    - family: SpPro
+      fonts:
+        - asset: assets/fonts/SpPro/Regular.ttf
+          weight: 400
+        - asset: assets/fonts/SpPro/SemiBold.ttf
+          weight: 700
+        - asset: assets/fonts/SpPro/Bold.ttf
+          weight: 800
